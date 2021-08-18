@@ -23,8 +23,6 @@ class Solution:
             else:
                 l3.append(l2.val)
                 l2 = l2.next
-            print(l3)
-
         
         if l1 != None:
             while l1 != None:
@@ -35,7 +33,7 @@ class Solution:
                 l3.append(l2.val)
                 l2 = l2.next
         
-        print(l3)
+        return create(l3)
 
 
 
